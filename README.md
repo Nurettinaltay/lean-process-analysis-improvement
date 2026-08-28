@@ -1,429 +1,248 @@
 # Lean Process Analysis & Improvement
 
-## Overview
+A practical Lean process improvement case focused on analysing an IT project intake and review process, identifying bottlenecks and designing a more structured and predictable future-state workflow.
 
-This project presents an end-to-end Lean process analysis of an internal IT & Innovation workflow.
-
-The case focuses on a project intake and assessment process in which requests move through several stages, including registration, coordination, project initiation, expert review, approval and follow-up.
-
-The analysis identified recurring issues such as incomplete information, unclear ownership, manual handovers, long waiting times, rework and fragmented communication across different systems and teams.
-
-The goal of the project was to understand the root causes of these problems and develop practical improvement proposals for a more predictable, transparent and efficient process.
-
-> For confidentiality, the organization and several names in this portfolio version have been replaced with fictional names.
+> **Note:** This portfolio case has been anonymised.  
+> The company name **Arvessa Digital Operations** is fictional and selected organisational details have been modified.
 
 ---
 
-## Business Problem
+## Project Overview
 
-The existing process showed several structural challenges:
+The analysed process contained multiple handovers between business stakeholders, project coordination and specialist teams.
 
-- Inconsistent quality of project intake information
-- Unclear roles and process ownership
-- Teams being involved too late
-- Long response times from suppliers and expert teams
-- Repeated back-and-forth communication
-- Manual routing and handovers
-- Fragmented information across systems, email and Teams
-- Lack of clear process gates and acceptance criteria
-- Limited KPI monitoring and feedback loops
+The main challenges included:
 
-These issues increased lead time, created rework and made the overall process difficult to predict.
+- incomplete or inconsistent project information;
+- unclear ownership and responsibilities;
+- repeated communication between teams;
+- manual handovers;
+- waiting time during external reviews;
+- fragmented information across different channels;
+- rework caused by incomplete input.
 
----
+The objective was to create a process that is more:
 
-## Objective
-
-The objective of this improvement project was to:
-
-- Increase customer and stakeholder value
-- Reduce waste and unnecessary waiting time
-- Improve the quality of information at the start of the process
-- Create clearer responsibilities and decision points
-- Improve process transparency
-- Reduce rework and repeated communication
-- Create a more standardized and predictable workflow
-- Establish a basis for continuous improvement
+- transparent;
+- predictable;
+- standardised;
+- efficient;
+- customer-oriented.
 
 ---
 
 ## Lean Approach
 
-The analysis was structured around the five Lean principles:
+The analysis follows the five Lean principles:
 
-1. **Value** – Identify what is truly important for the customer
-2. **Value Stream** – Visualize and analyse the complete process
-3. **Flow** – Identify interruptions, waste and root causes
-4. **Pull** – Ensure work moves forward only when required information is complete
-5. **Perfection** – Continuously improve the process using PDCA
+1. **Value**
+2. **Value Stream**
+3. **Flow**
+4. **Pull**
+5. **Perfection**
+
+![Five Lean Principles](screenshots/01-lean-five-principles.png)
+
+The Lean framework was used to analyse both customer value and process performance and to translate identified bottlenecks into practical improvement actions.
 
 ---
 
-## 1. Value – Understanding Customer Value
+## 1. Value
 
-The first step was to determine what the internal customers actually need from the process.
+The first step was to determine what creates real value for internal customers and stakeholders.
 
-The most important customer-value factors identified were:
+Important customer expectations included:
 
-- Clear requirements at the start
-- Predictable lead times
-- Minimal rework
-- Minimal waiting time
-- Process transparency
-- Visibility of project status
-- Faster handling of standard projects
-
-A **Kano analysis** was also used to distinguish between basic requirements, performance factors and potential improvement opportunities.
-
-Examples included:
-
-- Standardized project intake documentation
-- Better task and compliance tracking
-- Lead-time KPIs
-- Department-specific dashboards
-- A possible fast-track process for standard project types
+- clear project information;
+- predictable processing times;
+- transparency about project status;
+- fewer unnecessary handovers;
+- faster decision-making;
+- consistent quality of project input.
 
 ---
 
 ## 2. Value Stream Analysis
 
-The complete current-state process was analysed from:
+The complete process was mapped to understand where value is created and where waiting time, rework and unnecessary handovers occur.
 
-**Registration → Coordination → Project Initiation → System Workflow → Assessment → Completion & Follow-up**
+![Value Stream Map](screenshots/02-value-stream-map.png)
 
-Several techniques were used to understand the current process:
+The current-state analysis showed several structural bottlenecks, including high variation between teams, manual handovers, limited standardisation and unclear process ownership.
 
-- Value Stream Mapping
-- BPMN
-- SIPOC
-- Bottleneck analysis
-- Stakeholder sessions
+### SIPOC – Current State
 
-The analysis showed that delays were not caused by one single activity, but by a combination of unclear responsibilities, incomplete information, waiting time and inconsistent working methods.
+A SIPOC analysis was used to create a high-level overview of suppliers, inputs, process steps, outputs and customers.
 
----
+![SIPOC Current State](screenshots/03-sipoc-current-state.png)
 
-## Key Bottlenecks Identified
-
-The main bottlenecks included:
-
-- Slow supplier and security responses
-- Unclear process ownership and responsibilities
-- Inconsistent project intake and PID usage
-- Late involvement of specialist teams
-- Missing or incomplete intake information
-- Lack of KPI measurement
-- Missing process standards
-- Difference between system workflow and actual working practice
-- Unclear privacy and compliance workflow
-- Missing formal decision gates
-- Inconsistent status tracking
-
-The analysis indicated that a large part of the total lead time consisted of non-value-adding activities such as waiting, rework and repeated coordination.
+This helped identify dependencies between different stakeholders and clarify where process quality depended heavily on the completeness of incoming information.
 
 ---
 
-## SIPOC Analysis
+## 3. Flow – A3 Problem Solving
 
-A SIPOC model was created to define the scope of the process and identify:
+A major part of this project was the use of **A3 problem solving**.
 
-- **Suppliers**
-- **Inputs**
-- **Process steps**
-- **Outputs**
-- **Customers**
+A3 was used not only to describe problems, but to connect:
 
-The high-level process consists of six main stages:
+- problem definition;
+- current situation;
+- root-cause analysis;
+- target condition;
+- countermeasures;
+- responsibilities;
+- measurement and follow-up.
 
-1. Registration
-2. Intake & Coordination
-3. Project Initiation
-4. System / Workflow Processing
-5. Assessment and Go/No-Go
-6. Completion & Follow-up
-
-The SIPOC helped clarify which information is required before work should move further downstream.
+The A3 structure therefore became the central method for translating the Lean analysis into concrete improvement proposals.
 
 ---
 
-## BPMN Process Model
+## A3 Analysis 1 – Delays in External Review
 
-A BPMN model was used to visualize the complete workflow, including:
+The first A3 focused on delays caused by slow responses and repeated communication during an external review process.
 
-- Process activities
-- Roles
-- Decisions
-- Handovers
-- Parallel activities
-- Waiting points
-- Approval moments
+The problem created:
 
-The BPMN model provided a shared view of how the process actually operates and made several hidden handovers and dependencies visible.
+- additional waiting time;
+- repeated follow-up;
+- uncertainty about project status;
+- longer approval lead times.
 
----
+![A3 Supplier Delay](screenshots/04-a3-supplier-delay.png)
 
-## 3. Flow – Waste and Root Cause Analysis
-
-The Flow phase focused on identifying interruptions and activities that do not add value.
-
-The analysis included common Lean waste categories such as:
-
-- Inventory / work accumulation
-- Motion
-- Waiting
-- Overproduction
-- Overprocessing
-- Defects / errors
-- Underutilized talent
-
-Typical examples included incomplete forms, repeated corrections, unnecessary meetings, waiting for supplier responses, double checks and manual information transfers.
-
----
-
-# A3 Problem Solving
-
-A3 Problem Solving formed the central problem-solving method within the Flow phase.
-
-The A3 approach was structured around the PDCA logic and included:
-
-- Problem and context
-- Objective
-- Current situation
-- Root cause analysis
-- Countermeasures
-- Action plan
-- Experiments
-- Measurement
-- Check and follow-up
-
-Supporting techniques such as **Fishbone analysis and 5 Why analysis** were used to identify root causes instead of focusing only on symptoms.
-
-Two major A3 analyses were developed.
-
----
-
-## A3 Analysis 1 – Supplier Response & Approval Delays
-
-The first A3 focused on the most frequently reported bottleneck:
-
-**Slow supplier responses during security and compliance assessment.**
-
-The existing process created repeated back-and-forth communication because questions were often handled in several rounds.
-
-Additional issues included:
-
-- No clear escalation procedure
-- No standard waiting period
-- No clear Definition of Done
-- Limited visibility of supplier status
-- Repeated manual follow-up
-
-### Proposed Improvements
-
-The proposed countermeasures included:
-
-- Send a complete question set at the beginning
-- Define response deadlines
-- Introduce standard reminder moments
-- Introduce an escalation path
-- Register communication consistently in the workflow system
-- Create a clear Definition of Done
-
-An example escalation model was designed:
-
-**Day 0**  
-Initial complete request
-
-**Day 5**  
-First reminder
-
-**Day 10**  
-Second reminder + escalation
-
-**Day 15**  
-Final call
-
-**No response**  
-Supplier marked as non-responsive and the case is formally escalated or closed.
-
-This creates a measurable and transparent process instead of relying on individual judgement.
-
----
-
-## A3 Analysis 2 – Process Ownership & PID Quality
-
-The second A3 focused on a combination of two closely related problems:
-
-**Inconsistent project intake/PID execution and unclear process ownership.**
-
-The analysis showed that:
-
-- Project documentation was sometimes incomplete
-- Required steps could be skipped
-- Roles were unclear at the beginning
-- Specialist teams were sometimes involved too late
-- Formal process gates were missing
-- KPI ownership was unclear
-- Responsibility differed between projects
-
-### Root Causes
-
-Root cause analysis highlighted issues such as:
-
-- Missing governance
-- Unclear ownership
-- Lack of standardized working instructions
-- Missing decision gates
-- Limited process monitoring
-- Insufficiently defined responsibilities
-
-### Proposed Improvements
+### Improvement Direction
 
 Possible countermeasures included:
 
-- Clear process ownership
-- Standardized PID/intake requirements
-- Formal Go/No-Go decision points
-- Definition of Done
-- RACI/RASCI responsibility model
-- Earlier involvement of specialist teams
-- KPI monitoring
-- Clearer workflow rules
+- clearer response expectations;
+- structured escalation rules;
+- improved communication standards;
+- better status visibility;
+- explicit ownership of follow-up actions.
+## A3 Analysis 2 – Process Ownership & Role Clarity
+
+The second A3 focused on inconsistent process execution caused by unclear roles and ownership.
+
+The analysis showed that unclear responsibilities could result in:
+
+- incomplete project documentation;
+- missing decision points;
+- repeated coordination;
+- unnecessary rework;
+- delays between teams.
+
+![A3 Process Ownership](screenshots/05-a3-process-ownership.png)
+
+### Improvement Direction
+
+The proposed future state focuses on:
+
+- clearly assigned process ownership;
+- defined responsibilities;
+- standardised decision points;
+- consistent input requirements;
+- improved handover criteria;
+- clearer governance.
+
+This reduces ambiguity and helps prevent incomplete work from moving further downstream.
+---
+
+## 4. Future-State Process
+
+Based on the identified bottlenecks and A3 analyses, a future-state process was designed.
+
+![SIPOC Future State](screenshots/06-sipoc-future-state.png)
+
+Key improvement principles include:
+
+- better input quality at the start of the process;
+- clear acceptance criteria;
+- clearer ownership;
+- fewer manual handovers;
+- reduced rework;
+- structured communication;
+- improved process visibility.
+
+The objective is to prevent incomplete work from entering downstream stages and to create a smoother overall flow.
 
 ---
 
-## 4. Pull – Creating a Controlled Workflow
+## 5. BPMN Process Mapping
 
-The Pull principle was used to prevent incomplete work from moving downstream.
+BPMN was used to visualise the process flow and the interaction between different roles and process steps.
 
-The future-state approach requires that a project only progresses when the required information is available and agreed criteria have been met.
+![BPMN Process Map](screenshots/07-bpmn-process-map.png)
 
-Suggested improvements included:
+The model helped make:
 
-- Complete intake before expert assessment
-- Standard acceptance criteria
-- Definition of Done
-- Improved workflow routing
-- Clear decision points
-- Better role allocation
+- handovers;
+- responsibilities;
+- decision points;
+- dependencies;
+- improvement opportunities
 
-The objective is to avoid restarting work later because information was missing at the beginning.
+visible in a structured way.
 
 ---
 
-## 5. Perfection – Continuous Improvement
+## 6. Continuous Improvement
 
-The final Lean principle focuses on continuous improvement.
-
-A PDCA-based approach was proposed:
+The final phase uses the **PDCA cycle** to ensure that improvements are tested, measured and continuously refined.
 
 **Plan → Do → Check → Act**
 
-Potential improvement mechanisms include:
+Suggested performance indicators include:
 
-- Kaizen sessions
-- KPI reviews
-- Feedback loops
-- Process evaluations
-- Updated work instructions
-- Updated BPMN
-- Updated SIPOC
-- RASCI
-- Continuous improvement plan
+- total lead time;
+- percentage of rework;
+- completeness of project input;
+- waiting time per process step;
+- number of repeated handovers.
 
-Important KPIs include:
-
-- Lead time
-- Rework
-- Completeness of intake information
-- Approval time
-- Process compliance
+Successful changes can then be standardised and incorporated into the normal way of working.
 
 ---
 
-## Methods & Tools Used
+## Methods & Techniques
+
+This project demonstrates practical use of:
 
 - Lean Five Principles
-- A3 Problem Solving
-- PDCA
-- Value Stream Mapping
+- Value Stream Analysis
 - SIPOC
 - BPMN
-- Kano Model
-- Bottleneck Analysis
-- Muda / Waste Analysis
-- Fishbone / Ishikawa Analysis
-- 5 Why Analysis
+- A3 Problem Solving
+- 5 Whys
+- Ishikawa / Fishbone Analysis
+- Muda Analysis
 - RACI / RASCI
+- PDCA
+- Process Improvement
 - Root Cause Analysis
-- Definition of Done
-- KPI Design
-- Process Standardization
+- Stakeholder Analysis
 
 ---
 
-## Key Improvement Themes
+## What This Project Demonstrates
 
-The analysis resulted in several recurring improvement themes:
+This project shows my ability to combine **process analysis, structured problem solving and stakeholder-oriented improvement**.
 
-**Standardization**  
-Create consistent intake procedures, working instructions and process gates.
+Rather than looking only at individual incidents, I analysed the complete process, identified underlying causes and translated them into practical improvement proposals.
 
-**Ownership**  
-Define clear responsibilities and process ownership.
+The case demonstrates skills that are relevant for roles such as:
 
-**Information Quality**  
-Ensure complete and correct information before work moves downstream.
-
-**Automation**  
-Reduce manual routing, reminders and status updates where possible.
-
-**Transparency**  
-Improve process status visibility and create a central source of truth.
-
-**Measurement**  
-Use KPIs to monitor lead time, rework and process quality.
-
-**Continuous Improvement**  
-Use PDCA, feedback and Kaizen sessions to evaluate and improve the process over time.
+- Functional Application Management
+- Business Analysis
+- Information Analysis
+- IT Project Coordination
+- Process Improvement
+- Business & IT Consulting
 
 ---
 
-## Deliverables
+## Author
 
-The project produced several process-analysis and improvement artefacts:
+**Nurettin Altay**
 
-- Lean process analysis report
-- Customer Value analysis
-- Kano analysis
-- Bottleneck analysis
-- Current-state Value Stream Map
-- SIPOC analysis
-- BPMN process model
-- Waste / Muda analysis
-- A3 Problem Solving analyses
-- Root cause analyses
-- Definition of Done proposal
-- Future-state process proposal
-- RACI/RASCI recommendations
-- KPI and continuous improvement recommendations
-
----
-
-## Project Outcome
-
-The project transformed a complex and fragmented workflow into a structured improvement case.
-
-Rather than focusing on isolated problems, the analysis connected customer value, process flow, root causes, responsibilities and measurable improvement actions.
-
-The resulting improvement proposals provide a foundation for a more:
-
-- Predictable
-- Transparent
-- Standardized
-- Measurable
-- Efficient
-
-IT project workflow.
-
-The proposed measures are intended to be validated through experiments and the PDCA cycle before becoming permanent process standards.
+Business & Data Analyst | Functional Management | Power BI | Power Platform | AI & Automation
